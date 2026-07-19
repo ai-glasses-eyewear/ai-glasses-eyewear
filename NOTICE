@@ -1,0 +1,31 @@
+AI Glasses Open Database
+========================
+
+Maintained by AI-Eyewear (Even Realities Switzerland).
+Website: https://ai-eyewear.ch/ | Database: https://ai-eyewear.ch/datenbank/
+
+Data
+----
+The datasets in this repository are © AI-Eyewear (Even Realities Switzerland)
+and licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). See LICENSE-DATA.
+
+Attribution string:
+  AI-Eyewear (Even Realities Switzerland), https://ai-eyewear.ch/
+
+Code
+----
+The code, schema, and examples are licensed under the MIT License.
+See LICENSE-CODE.
+
+Trademarks
+----------
+All third-party brand and product names are trademarks or registered trademarks
+of their respective owners and are used for identification only. Inclusion does
+not imply endorsement, affiliation, or partnership. See TRADEMARKS.md.
+
+Content
+-------
+This repository contains factual, cited data only. It includes no manufacturer
+images and no substantial manufacturer text. Descriptions are written in our own
+words; individual facts and figures are attributed to their sources.

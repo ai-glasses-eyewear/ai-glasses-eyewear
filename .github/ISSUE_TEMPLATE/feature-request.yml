@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest a new field, format, export, or tool for the dataset.
+title: "[enhancement] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: What problem does it solve, and who benefits (developers, researchers, journalists, …)?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Optional — how might it work? Can it be maintained responsibly with sourced data?
+    validations:
+      required: false

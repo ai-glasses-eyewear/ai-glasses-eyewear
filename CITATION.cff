@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "AI Glasses Open Data"
+abstract: "Open, cited, machine-readable dataset of AI glasses and smart glasses: display, camera, weight, battery, price and prescription option. Manufacturer specifications are separated from independent tests; unverified values are null; no values are invented."
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-19"
+license: CC-BY-4.0
+url: "https://ai-eyewear.ch/datenbank/"
+repository-code: "https://github.com/ai-glasses-eyewear/ai-glasses-eyewear"
+keywords:
+  - AI glasses
+  - smart glasses
+  - AR glasses
+  - wearables
+  - open data
+authors:
+  - name: "AI-Eyewear (Even Realities Switzerland)"
+    website: "https://ai-eyewear.ch/"
+    city: "Zürich"
+    country: CH

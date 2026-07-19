@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: AI Glasses database (human-readable)
+    url: https://ai-eyewear.ch/datenbank/
+    about: Browse the filterable, cited database on the website.
+  - name: Email the maintainers
+    url: mailto:sales@ai-eyewear.ch
+    about: For private matters, manufacturer relations, or security reports.

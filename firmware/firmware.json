@@ -1,0 +1,14 @@
+{
+  "$schema": "./firmware.schema.json",
+  "updated": "2026-07-19",
+  "_status": "No version entries are invented. Release lists are populated only from cited official sources. update_channel is filled where the delivery mechanism is documented by the manufacturer.",
+  "devices": [
+    { "id": "even-g2", "update_channel": "Even Realities app (firmware delivered via app)", "releases": [] },
+    { "id": "ray-ban-meta-gen2", "update_channel": "Meta AI / companion app", "releases": [] },
+    { "id": "ray-ban-display", "update_channel": null, "releases": [] },
+    { "id": "xreal-one", "update_channel": null, "releases": [] },
+    { "id": "rokid-glasses", "update_channel": null, "releases": [] },
+    { "id": "rayneo-x3-pro", "update_channel": null, "releases": [] },
+    { "id": "brilliant-labs-frame", "update_channel": "open-source SDK / companion app", "releases": [] }
+  ]
+}

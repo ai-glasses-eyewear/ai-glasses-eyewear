@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI Glasses Open Database",
+  "description": "Open, cited, machine-readable dataset of AI glasses and smart glasses: display, camera, weight, battery, price and prescription option. Manufacturer specifications are separated from independent tests; unverified values are null; no values are invented.",
+  "url": "https://ai-eyewear.ch/datenbank/",
+  "sameAs": "https://github.com/ai-glasses-eyewear/ai-glasses-eyewear",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.0",
+  "dateModified": "2026-07-19",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "AI glasses",
+    "smart glasses",
+    "AR glasses",
+    "wearables",
+    "open data"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "AI-Eyewear",
+    "url": "https://ai-eyewear.ch/"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "AI Glasses dataset (JSON)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/ai-glasses-eyewear/ai-glasses-eyewear/main/data/ai-glasses.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "AI Glasses dataset (CSV)",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/ai-glasses-eyewear/ai-glasses-eyewear/main/data/ai-glasses.csv"
+    }
+  ],
+  "variableMeasured": [
+    "display",
+    "camera",
+    "weight_g",
+    "battery",
+    "price",
+    "prescription"
+  ]
+}

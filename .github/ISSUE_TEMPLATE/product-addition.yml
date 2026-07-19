@@ -1,0 +1,57 @@
+name: Add a product
+description: Propose a new AI-glasses product for the dataset (sourced values only).
+title: "[new-product] "
+labels: ["new-product", "verification-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks! Every value must be sourced. Leave anything you can't source blank — it will be recorded as `null`, never estimated."
+  - type: input
+    id: product-name
+    attributes:
+      label: Product name
+    validations:
+      required: true
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+    validations:
+      required: true
+  - type: input
+    id: official-url
+    attributes:
+      label: Official product URL (manufacturer)
+    validations:
+      required: true
+  - type: input
+    id: access-date
+    attributes:
+      label: Access date (ISO, YYYY-MM-DD)
+    validations:
+      required: true
+  - type: textarea
+    id: values
+    attributes:
+      label: Proposed field values
+      description: "List field: value pairs (e.g. weight_g: 45, camera: true). Only include what you can source."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources / evidence
+      description: "Title, publisher, URL and type (manufacturer / independent review / journalism) for each value."
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I confirm no copyrighted manufacturer text was copied.
+          required: true
+        - label: I confirm there is no affiliate or commercial manipulation behind this submission.
+          required: true
+        - label: I understand unverifiable values will be recorded as `null`.
+          required: true

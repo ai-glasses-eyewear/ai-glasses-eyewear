@@ -1,0 +1,8 @@
+id,name,manufacturer,category,status,camera,microphone,speaker,display_present,display_type,display_color,resolution,brightness_nit,ai_assistant,translation,weight_g,prescription_available,price_amount,price_currency,official_url,confidence,date_checked,sources
+even-g2,Even G2,Even Realities,display-ai,shipping,false,true,false,true,Micro-LED waveguide,monochrome-green,640x350,1200,true,true,35,true,699,CHF,https://www.evenrealities.com/,high,2026-07-19,s1
+ray-ban-meta-gen2,Ray-Ban Meta (Gen 2),Meta / EssilorLuxottica,camera-audio,shipping,true,true,true,false,,,,,true,true,,true,379,USD,https://www.meta.com/,medium,2026-07-19,s2
+ray-ban-display,Ray-Ban Display,Meta / EssilorLuxottica,display-camera,shipping,true,,,true,monocular (right lens) + Neural Band,,600x600,,,,,,,,https://www.meta.com/,low,2026-07-19,s3
+xreal-one,XREAL One,XREAL,ar-media,shipping,false,,true,true,Micro-OLED (Sony 0.68in),full-color,1080p per eye,,,,84,true,499,USD,https://www.xreal.com/,medium,2026-07-19,s4
+rokid-glasses,Rokid Glasses,Rokid,display-camera,shipping,true,,true,true,dual Micro-LED,monochrome,,1500,true,true,49,true,,,https://www.rokid.com/,medium,2026-07-19,s5
+rayneo-x3-pro,RayNeo X3 Pro,RayNeo (TCL),ar-ai,shipping,true,,true,true,dual full-color Micro-LED,full-color,640x480,6000,true,,76,,1299,USD,https://www.rayneo.com/,medium,2026-07-19,s6
+brilliant-labs-frame,Frame,Brilliant Labs,display-ai-opensource,shipping,true,,false,true,Micro-OLED,,640x400,3000,true,,40,false,349,USD,https://brilliant.xyz/,medium,2026-07-19,s7

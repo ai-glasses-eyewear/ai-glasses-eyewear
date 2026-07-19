@@ -1,0 +1,13 @@
+{
+  "updated": "2026-07-19",
+  "_status": "Fields below are derived from cited manufacturer specs in ../data/ai-glasses.json. Phone-OS matrices are null until filled from a cited manufacturer compatibility page. Nothing here is invented.",
+  "devices": [
+    { "id": "even-g2",           "camera": false, "speaker": false, "prescription": "yes (UltraFit)", "connection": "companion app (Bluetooth), charging case", "phone_os": { "ios": null, "android": null, "note": "verify with manufacturer" } },
+    { "id": "ray-ban-meta-gen2", "camera": true,  "speaker": true,  "prescription": "yes (Rx)",       "connection": "Meta AI companion app", "phone_os": { "ios": null, "android": null, "note": "verify with manufacturer" } },
+    { "id": "ray-ban-display",   "camera": true,  "speaker": null,  "prescription": null,             "connection": "Neural Band", "phone_os": { "ios": null, "android": null, "note": "verify with manufacturer" } },
+    { "id": "xreal-one",         "camera": false, "speaker": true,  "prescription": "via clip",        "connection": "USB-C (tethered / DisplayPort)", "phone_os": { "ios": null, "android": null, "note": "device compatibility depends on USB-C DP-out; verify with manufacturer" } },
+    { "id": "rokid-glasses",     "camera": true,  "speaker": true,  "prescription": "yes",             "connection": "companion app, Capsule charger", "phone_os": { "ios": null, "android": null, "note": "verify with manufacturer" } },
+    { "id": "rayneo-x3-pro",     "camera": true,  "speaker": true,  "prescription": null,             "connection": "companion app", "phone_os": { "ios": null, "android": null, "note": "verify with manufacturer" } },
+    { "id": "brilliant-labs-frame", "camera": true, "speaker": false, "prescription": "no",           "connection": "open-source SDK / companion app; headphones for audio", "phone_os": { "ios": null, "android": null, "note": "verify with manufacturer" } }
+  ]
+}

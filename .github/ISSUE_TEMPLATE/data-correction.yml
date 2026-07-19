@@ -1,0 +1,52 @@
+name: Correct a value
+description: Report an incorrect or outdated value in the dataset.
+title: "[data-correction] "
+labels: ["data-correction", "verification-needed"]
+body:
+  - type: input
+    id: product-id
+    attributes:
+      label: Product id
+      description: e.g. even-g2, xreal-one
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: e.g. weight_g, display.brightness_nit, price.amount
+    validations:
+      required: true
+  - type: input
+    id: current-value
+    attributes:
+      label: Current value in the dataset
+    validations:
+      required: true
+  - type: input
+    id: corrected-value
+    attributes:
+      label: Corrected value
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: input
+    id: access-date
+    attributes:
+      label: Access date (ISO, YYYY-MM-DD)
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: The source is the manufacturer or a credible independent test (not a low-quality affiliate page).
+          required: true
+        - label: I confirm no copyrighted text was copied.
+          required: true

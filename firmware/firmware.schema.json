@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-eyewear.ch/open-data/firmware.schema.json",
+  "title": "AI Glasses Firmware History",
+  "type": "object",
+  "required": ["updated", "devices"],
+  "properties": {
+    "updated": { "type": "string", "format": "date" },
+    "devices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "releases"],
+        "properties": {
+          "id": { "type": "string", "description": "product id, matches data/ai-glasses.json" },
+          "update_channel": { "type": ["string", "null"], "description": "how updates are delivered, if documented" },
+          "releases": {
+            "type": "array",
+            "description": "Only entries with a citable version, date and source.",
+            "items": {
+              "type": "object",
+              "required": ["version", "date", "source"],
+              "properties": {
+                "version": { "type": "string" },
+                "date": { "type": "string", "format": "date" },
+                "highlights": { "type": "array", "items": { "type": "string" } },
+                "source": { "type": "string", "description": "official release notes / changelog / announcement" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

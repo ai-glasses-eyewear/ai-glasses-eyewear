@@ -1,0 +1,72 @@
+{
+  "note": "Sources for the AI Glasses Open Database. Each product's figures are manufacturer specifications and/or figures from the cited independent reviews below, accessed 2026-07-19. Manufacturer pages are authoritative for current specs. Review article URLs are named by publisher; where an exact article URL is not recorded it is null rather than fabricated. No values are invented.",
+  "source_hierarchy": [
+    "1. Manufacturer documentation / official product pages",
+    "2. Official manuals & support pages",
+    "3. Regulatory filings",
+    "4. Credible independent testing",
+    "5. Reputable journalism",
+    "6. Retailer pages (only where necessary)"
+  ],
+  "correction_policy": "If a source is outdated or wrong, open an issue labelled 'source-needed' or 'data-correction' with the field, the current value, the corrected value, and a higher-tier source. Corrections ship as PATCH releases and are logged in CHANGELOG.md.",
+  "sources": [
+    { "id": "s1", "product": "even-g2", "classification": "manufacturer+independent", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["display", "camera", "microphone", "speaker", "weight_g", "battery", "prescription", "price"],
+      "references": [
+        { "title": "Even G2 — product page", "publisher": "Even Realities", "type": "manufacturer", "url": "https://www.evenrealities.com/" },
+        { "title": "Even G2 review", "publisher": "Android Police", "type": "independent-review", "url": null },
+        { "title": "Even G2 coverage", "publisher": "Geeky Gadgets", "type": "independent-review", "url": null },
+        { "title": "Even G2 coverage (2026-07-11)", "publisher": "TechCrunch", "type": "journalism", "url": null },
+        { "title": "Swiss price (CHF 699 incl. case)", "publisher": "ai-eyewear.ch", "type": "authorized-reseller", "url": "https://ai-eyewear.ch/datenbank/" }
+      ] },
+    { "id": "s2", "product": "ray-ban-meta-gen2", "classification": "manufacturer+independent", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["camera", "microphone", "speaker", "capabilities", "prescription", "price"],
+      "references": [
+        { "title": "Ray-Ban Meta — product page", "publisher": "Meta", "type": "manufacturer", "url": "https://www.meta.com/" },
+        { "title": "Ray-Ban Meta overview", "publisher": "Memeburn", "type": "journalism", "url": null },
+        { "title": "Ray-Ban Meta overview", "publisher": "gagadget", "type": "journalism", "url": null }
+      ] },
+    { "id": "s3", "product": "ray-ban-display", "classification": "manufacturer+journalism", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["display", "camera"],
+      "references": [
+        { "title": "Ray-Ban Display — manufacturer information", "publisher": "Meta", "type": "manufacturer", "url": "https://www.meta.com/" },
+        { "title": "Ray-Ban Display coverage", "publisher": "Dymesty", "type": "journalism", "url": null },
+        { "title": "Ray-Ban Display coverage", "publisher": "The Gadgeteer", "type": "journalism", "url": null }
+      ] },
+    { "id": "s4", "product": "xreal-one", "classification": "manufacturer+independent", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["display", "camera", "speaker", "weight_g", "prescription", "price", "connectivity"],
+      "references": [
+        { "title": "XREAL One — product page", "publisher": "XREAL", "type": "manufacturer", "url": "https://www.xreal.com/" },
+        { "title": "XREAL One review", "publisher": "Tom's Guide", "type": "independent-review", "url": null },
+        { "title": "XREAL One specifications", "publisher": "VRcompare", "type": "aggregator", "url": null }
+      ] },
+    { "id": "s5", "product": "rokid-glasses", "classification": "manufacturer+independent", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["display", "camera", "speaker", "capabilities", "weight_g", "battery", "prescription"],
+      "references": [
+        { "title": "Rokid Glasses — product page", "publisher": "Rokid", "type": "manufacturer", "url": "https://www.rokid.com/" },
+        { "title": "Rokid Glasses review", "publisher": "Tom's Guide", "type": "independent-review", "url": null },
+        { "title": "Rokid Glasses (CES 2026)", "publisher": "Engadget", "type": "journalism", "url": null }
+      ] },
+    { "id": "s6", "product": "rayneo-x3-pro", "classification": "manufacturer+independent", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["display", "camera", "speaker", "capabilities", "weight_g", "battery", "price"],
+      "references": [
+        { "title": "RayNeo X3 Pro — product page", "publisher": "RayNeo", "type": "manufacturer", "url": "https://www.rayneo.com/" },
+        { "title": "RayNeo X3 Pro coverage", "publisher": "Tom's Hardware", "type": "independent-review", "url": null },
+        { "title": "RayNeo X3 Pro coverage", "publisher": "Tom's Guide", "type": "independent-review", "url": null }
+      ] },
+    { "id": "s7", "product": "brilliant-labs-frame", "classification": "manufacturer+independent", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["display", "camera", "speaker", "capabilities", "weight_g", "prescription", "price"],
+      "references": [
+        { "title": "Frame — official information", "publisher": "Brilliant Labs", "type": "manufacturer", "url": "https://brilliant.xyz/" },
+        { "title": "Frame specifications", "publisher": "VRcompare", "type": "aggregator", "url": null },
+        { "title": "Frame coverage", "publisher": "Digital Trends", "type": "journalism", "url": null },
+        { "title": "Frame coverage", "publisher": "Geeky Gadgets", "type": "journalism", "url": null }
+      ] },
+    { "id": "s8", "product": "announced", "classification": "journalism", "language": "en", "access_date": "2026-07-19", "publication_date": null,
+      "fields_supported": ["announced"],
+      "references": [
+        { "title": "Android XR glasses coverage", "publisher": "The Gadgeteer", "type": "journalism", "url": null },
+        { "title": "AI-glasses market data", "publisher": "Counterpoint Research / IDC", "type": "market-research", "url": null }
+      ] }
+  ]
+}

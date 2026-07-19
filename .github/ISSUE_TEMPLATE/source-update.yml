@@ -1,0 +1,54 @@
+name: Add or update a source
+description: Provide a source for a field currently marked null, or improve an existing source.
+title: "[source-needed] "
+labels: ["source-needed"]
+body:
+  - type: input
+    id: product-id
+    attributes:
+      label: Product id
+    validations:
+      required: true
+  - type: input
+    id: fields
+    attributes:
+      label: Field(s) this source supports
+    validations:
+      required: true
+  - type: input
+    id: source-title
+    attributes:
+      label: Source title
+    validations:
+      required: true
+  - type: input
+    id: source-publisher
+    attributes:
+      label: Publisher
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: Source type
+      options:
+        - manufacturer
+        - official manual / support
+        - regulatory filing
+        - independent review / test
+        - journalism
+        - retailer
+    validations:
+      required: true
+  - type: input
+    id: access-date
+    attributes:
+      label: Access date (ISO, YYYY-MM-DD)
+    validations:
+      required: true

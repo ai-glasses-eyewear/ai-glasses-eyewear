@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ai-glasses-eyewear/ai-glasses-eyewear/blob/main/schema/ai-glasses.schema.json",
+  "title": "AI Glasses Open Database",
+  "description": "Schema for the AI-Eyewear open AI-glasses dataset. Unknown values are null (never estimated); no specification is inferred from a competing product.",
+  "type": "object",
+  "required": ["dataset", "products"],
+  "properties": {
+    "dataset": {
+      "type": "object",
+      "required": ["name", "schema_version", "version", "updated", "license", "count"],
+      "properties": {
+        "name": { "type": "string" },
+        "schema_version": { "type": "string" },
+        "version": { "type": "string", "description": "semantic version of the dataset content" },
+        "updated": { "type": "string", "format": "date" },
+        "license": { "type": "string" },
+        "maintainer": { "type": "string" },
+        "canonical_url": { "type": "string", "format": "uri" },
+        "repository": { "type": "string", "format": "uri" },
+        "methodology": { "type": "string" },
+        "conventions": { "type": "object" },
+        "count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "manufacturer", "category", "status", "camera", "display", "provenance", "confidence", "date_checked", "sources"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "stable identifier; does not change when the display name is reformatted" },
+          "name": { "type": "string" },
+          "manufacturer": { "type": "string" },
+          "category": { "type": "string", "enum": ["display-ai", "camera-audio", "display-camera", "ar-media", "ar-ai", "display-ai-opensource"] },
+          "status": { "type": "string", "enum": ["shipping", "announced", "discontinued"] },
+          "official_url": { "type": ["string", "null"], "format": "uri" },
+          "region_availability": { "type": ["string", "null"] },
+          "display": {
+            "type": "object",
+            "required": ["present"],
+            "properties": {
+              "present": { "type": "boolean" },
+              "type": { "type": ["string", "null"] },
+              "color": { "type": ["string", "null"] },
+              "resolution": { "type": ["string", "null"] },
+              "brightness_nit": { "type": ["integer", "null"] },
+              "fov_deg": { "type": ["integer", "null"] },
+              "virtual_screen_in": { "type": ["integer", "null"] }
+            }
+          },
+          "camera": { "type": "boolean" },
+          "camera_spec": { "type": ["string", "null"] },
+          "microphone": { "type": ["boolean", "null"] },
+          "speaker": { "type": ["boolean", "null"] },
+          "capabilities": {
+            "type": "object",
+            "description": "null = not documented/verified (not 'false')",
+            "properties": {
+              "ai_assistant": { "type": ["boolean", "null"] },
+              "translation": { "type": ["boolean", "null"] },
+              "teleprompter": { "type": ["boolean", "null"] },
+              "navigation": { "type": ["boolean", "null"] },
+              "notifications": { "type": ["boolean", "null"] }
+            }
+          },
+          "weight_g": { "type": ["number", "null"] },
+          "weight_note": { "type": "string" },
+          "dimensions_mm": { "type": ["object", "string", "null"] },
+          "battery": { "type": ["object", "null"] },
+          "prescription": {
+            "type": "object",
+            "properties": {
+              "available": { "type": ["boolean", "null"] },
+              "system": { "type": ["string", "null"] }
+            }
+          },
+          "connectivity": { "type": ["string", "null"] },
+          "os_compatibility": { "type": ["string", "object", "null"] },
+          "price": {
+            "type": "object",
+            "properties": {
+              "amount": { "type": ["number", "null"] },
+              "currency": { "type": ["string", "null"], "description": "ISO 4217" },
+              "note": { "type": ["string", "null"] }
+            }
+          },
+          "warranty": { "type": ["string", "null"] },
+          "privacy": { "type": ["object", "null"] },
+          "provenance": { "type": "string", "enum": ["manufacturer", "reviews", "manufacturer+reviews", "derived"] },
+          "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+          "date_checked": { "type": "string", "format": "date" },
+          "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "announced": { "type": "array" }
+  }
+}

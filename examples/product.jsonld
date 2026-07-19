@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Even G2",
+  "brand": {
+    "@type": "Brand",
+    "name": "Even Realities"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Even Realities"
+  },
+  "category": "AI display glasses",
+  "url": "https://www.evenrealities.com/",
+  "weight": {
+    "@type": "QuantitativeValue",
+    "value": 35,
+    "unitCode": "GRM"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Display",
+      "value": "Micro-LED waveguide, monochrome-green, 640x350, 1200 nit"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Camera",
+      "value": "none"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Prescription",
+      "value": "UltraFit"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "699",
+    "priceCurrency": "CHF",
+    "url": "https://ai-eyewear.ch/even-g2-kaufen/",
+    "availability": "https://schema.org/InStock"
+  },
+  "isRelatedTo": {
+    "@type": "Dataset",
+    "name": "AI Glasses Open Database",
+    "url": "https://ai-eyewear.ch/datenbank/",
+    "sameAs": "https://github.com/ai-glasses-eyewear/ai-glasses-eyewear"
+  },
+  "_note": "Specifications are manufacturer figures (Even Realities). See the AI Glasses Open Database for sourcing, confidence and the null convention."
+}
