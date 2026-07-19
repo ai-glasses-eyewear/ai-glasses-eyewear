@@ -1,6 +1,6 @@
-# Static API
+# Static data endpoint
 
-There is no server — the dataset **is** the API. Every file is served directly over HTTPS from GitHub (and mirrored on the website), free, no key, CORS-enabled for `fetch()`.
+There is no server and no production API. The data files are served directly over HTTPS from GitHub as a **static data endpoint** — free, no key, CORS-enabled for `fetch()`. For a browsable, human-readable version, see the [website database](https://ai-eyewear.ch/datenbank/).
 
 ## Endpoints
 

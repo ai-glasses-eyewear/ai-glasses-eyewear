@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
-title: "AI Glasses Open Data"
+title: "AI Glasses Open Database"
 abstract: "Open, cited, machine-readable dataset of AI glasses and smart glasses: display, camera, weight, battery, price and prescription option. Manufacturer specifications are separated from independent tests; unverified values are null; no values are invented."
 type: dataset
 version: "1.0.0"
