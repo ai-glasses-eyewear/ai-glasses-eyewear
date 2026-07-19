@@ -6,6 +6,7 @@ Open, cited and machine-readable data about AI glasses, smart glasses, display g
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-3ee06f)](LICENSE-DATA)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue)](LICENSE-CODE)
 ![Dataset v1.0.0](https://img.shields.io/badge/dataset-v1.0.0-111214)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21446211.svg)](https://doi.org/10.5281/zenodo.21446211)
 
 > **Last verified: 2026-07-19** · 7 shipping products · [CITATION.cff](CITATION.cff) provided.
 
@@ -100,7 +101,9 @@ Corrections and new **sourced** figures are welcome — see [`CONTRIBUTING.md`](
 
 A machine-readable [`CITATION.cff`](CITATION.cff) is included (GitHub shows a "Cite this repository" button). Preferred citation:
 
-> AI-Eyewear. *AI Glasses Open Database* (v1.0.0). 2026. https://github.com/ai-glasses-eyewear/ai-glasses-eyewear
+> AI-Eyewear. *AI Glasses Open Database* (v1.0.0). 2026. Zenodo. https://doi.org/10.5281/zenodo.21446212
+
+The concept DOI [10.5281/zenodo.21446211](https://doi.org/10.5281/zenodo.21446211) always resolves to the latest version.
 
 ## License
 

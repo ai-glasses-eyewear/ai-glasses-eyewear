@@ -8,6 +8,11 @@ date-released: "2026-07-19"
 license: CC-BY-4.0
 url: "https://ai-eyewear.ch/datenbank/"
 repository-code: "https://github.com/ai-glasses-eyewear/ai-glasses-eyewear"
+doi: "10.5281/zenodo.21446212"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21446211"
+    description: "Concept DOI (resolves to the latest version)"
 keywords:
   - AI glasses
   - smart glasses
