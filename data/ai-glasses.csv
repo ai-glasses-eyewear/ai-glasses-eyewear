@@ -5,4 +5,5 @@ ray-ban-display,Ray-Ban Display,Meta / EssilorLuxottica,display-camera,shipping,
 xreal-one,XREAL One,XREAL,ar-media,shipping,false,,true,true,Micro-OLED (Sony 0.68in),full-color,1080p per eye,,,,84,true,499,USD,https://www.xreal.com/,medium,2026-07-19,s4
 rokid-glasses,Rokid Glasses,Rokid,display-camera,shipping,true,,true,true,dual Micro-LED,monochrome,,1500,true,true,49,true,,,https://www.rokid.com/,medium,2026-07-19,s5
 rayneo-x3-pro,RayNeo X3 Pro,RayNeo (TCL),ar-ai,shipping,true,,true,true,dual full-color Micro-LED,full-color,640x480,6000,true,,76,,1299,USD,https://www.rayneo.com/,medium,2026-07-19,s6
-brilliant-labs-frame,Frame,Brilliant Labs,display-ai-opensource,shipping,true,,false,true,Micro-OLED,,640x400,3000,true,,40,false,349,USD,https://brilliant.xyz/,medium,2026-07-19,s7
+brilliant-labs-frame,Frame,Brilliant Labs,display-ai-opensource,discontinued,true,,false,true,Micro-OLED,,640x400,3000,true,,40,false,349,USD,https://brilliant.xyz/,medium,2026-07-20,s7;s10
+brilliant-labs-halo,Halo,Brilliant Labs,display-ai-opensource,shipping,true,true,true,true,Micro-OLED (peripheral look-up),color,,,true,true,40,true,349,USD,https://brilliant.xyz/products/halo,medium,2026-07-20,s9;s10

@@ -3,8 +3,8 @@
 This folder holds factual analyses derived **only** from the AI Glasses Open
 Database. Nothing here introduces facts that are not in the dataset.
 
-- Data version: **1.0.0**
-- Date: **2026-07-19**
+- Data version: **1.1.0**
+- Date: **2026-07-20**
 - Sample size: **7** shipping products
 - Source repository: https://github.com/ai-glasses-eyewear/ai-glasses-eyewear
 
@@ -23,7 +23,7 @@ Database. Nothing here introduces facts that are not in the dataset.
 2. Always state the **sample size (7)**.
 3. Treat `null` as **unknown** — never as "no" or zero.
 4. Do **not** imply any ranking, "best", or superlative ordering of products.
-5. Every table must cite **data version 1.0.0**, **date 2026-07-19**, and the
+5. Every table must cite **data version 1.1.0**, **date 2026-07-20**, and the
    **source repository**.
 6. AI-Eyewear resells only the Even G2; do not imply it makes the other
    products.

@@ -3,8 +3,8 @@
   "dataset": {
     "name": "AI Glasses Open Database",
     "schema_version": "2.0.0",
-    "version": "1.0.0",
-    "updated": "2026-07-19",
+    "version": "1.1.0",
+    "updated": "2026-07-20",
     "license": "CC-BY-4.0",
     "maintainer": "AI-Eyewear (Even Realities Switzerland)",
     "canonical_url": "https://ai-eyewear.ch/datenbank/",
@@ -18,7 +18,7 @@
       "provenance": "manufacturer | reviews | manufacturer+reviews | derived",
       "confidence": "high | medium | low"
     },
-    "count": 7
+    "count": 8
   },
   "products": [
     {
@@ -196,7 +196,7 @@
       "name": "Frame",
       "manufacturer": "Brilliant Labs",
       "category": "display-ai-opensource",
-      "status": "shipping",
+      "status": "discontinued",
       "official_url": "https://brilliant.xyz/",
       "region_availability": null,
       "display": { "present": true, "type": "Micro-OLED", "color": null, "resolution": "640x400", "brightness_nit": 3000, "fov_deg": 20 },
@@ -217,9 +217,39 @@
       "privacy": { "camera_present": true, "note": "camera present" },
       "provenance": "manufacturer+reviews",
       "confidence": "medium",
-      "date_checked": "2026-07-19",
-      "sources": ["s7"],
-      "notes": "Open-source developer device with an AI assistant (Noa, manufacturer-stated); no built-in speaker. As of the last check the manufacturer's site foregrounds a newer product (\"Halo\"); the Frame's current availability/status should be re-verified (source-needed)."
+      "date_checked": "2026-07-20",
+      "sources": ["s7", "s10"],
+      "notes": "Open-source developer device with an AI assistant (Noa, manufacturer-stated); no built-in speaker (headphones required for audio). Superseded by the Brilliant Labs Halo: the Frame product page (brilliant.xyz/products/frame) now returns HTTP 404 and independent coverage describes Halo as its successor, so status is set to discontinued as of 2026-07-20. Historical specifications are retained."
+    },
+    {
+      "id": "brilliant-labs-halo",
+      "name": "Halo",
+      "manufacturer": "Brilliant Labs",
+      "category": "display-ai-opensource",
+      "status": "shipping",
+      "official_url": "https://brilliant.xyz/products/halo",
+      "region_availability": "global via manufacturer (brilliant.xyz)",
+      "display": { "present": true, "type": "Micro-OLED (peripheral look-up)", "color": "color", "resolution": null, "brightness_nit": null },
+      "camera": true,
+      "camera_spec": "AI-vision camera (on-device inference; resolution not specified)",
+      "microphone": true,
+      "speaker": true,
+      "capabilities": { "ai_assistant": true, "translation": true, "teleprompter": null, "navigation": null, "notifications": null },
+      "weight_g": 40,
+      "weight_note": "just over 40 g (manufacturer)",
+      "dimensions_mm": null,
+      "battery": { "rated_life": "all-day (manufacturer, estimated normal use)", "note": "manufacturer cites AI-optimised imaging/compression for longer battery life; exact runtime not stated" },
+      "prescription": { "available": true, "system": "diopter-adjustable optic (+2 to -6 D); Rx via SmartBuyGlasses" },
+      "connectivity": "open-source SDK; companion app",
+      "os_compatibility": null,
+      "price": { "amount": 349, "currency": "USD", "note": "introductory; manufacturer states a later rise to USD 399" },
+      "warranty": null,
+      "privacy": { "camera_present": true, "note": "AI-vision camera; manufacturer emphasises on-device inference" },
+      "provenance": "manufacturer+reviews",
+      "confidence": "medium",
+      "date_checked": "2026-07-20",
+      "sources": ["s9", "s10"],
+      "notes": "Successor to the Brilliant Labs Frame. Open-source AI glasses: peripheral colour micro-OLED display (look-up), dual bone-conduction speakers, dual microphones and an on-device AI-vision camera, with the Noa assistant on an Alif B1 processor (Cortex-M55 + NPU). Shipping from the week of 2026-07-20; introductory USD 349 (manufacturer states a later rise to USD 399). Display resolution and exact battery runtime are not stated by the manufacturer and are left null."
     }
   ],
   "announced": [

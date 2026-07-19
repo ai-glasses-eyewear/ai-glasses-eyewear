@@ -2,6 +2,23 @@
 
 All notable changes are documented here. The dataset uses [semantic versioning](https://semver.org/): PATCH for corrections, MINOR for added products/fields, MAJOR for breaking schema changes. The dataset `version` and the `schema_version` are tracked independently.
 
+## [1.1.0] — 2026-07-20
+
+Currency update: added the current Brilliant Labs flagship and reclassified its predecessor. Schema unchanged (2.0.0).
+
+### Added
+- **Brilliant Labs Halo** (`brilliant-labs-halo`) — successor to the Frame: open-source AI glasses with a peripheral colour micro-OLED display, dual bone-conduction speakers, dual microphones and an on-device AI-vision camera (Noa assistant on an Alif B1 processor). Shipping from the week of 2026-07-20; introductory USD 349. Display resolution and exact battery runtime are not stated by the manufacturer and are left `null`.
+- **Sources** — `s9` (Halo: manufacturer page + Road to VR, Digital Trends, Tom's Guide) and `s10` (Frame → Halo supersession: The Verge, Tom's Guide).
+
+### Changed
+- **Brilliant Labs Frame** (`brilliant-labs-frame`) — status `shipping` → `discontinued`. The manufacturer's Frame product page now returns HTTP 404 and independent coverage describes Halo as its successor. Historical specifications retained; `date_checked` updated to 2026-07-20.
+- `dataset.count` 7 → 8; `dataset.version` 1.0.0 → 1.1.0; `dataset.updated` 2026-07-20. Regenerated `ai-glasses.csv` and `ai-glasses.min.json`.
+- Preferred citation now points to the concept DOI (always resolves to the latest version).
+
+### Notes
+- 7 shipping products + 1 discontinued (8 total) + the `announced` section.
+- Values remain manufacturer specifications or cited independent reviews; unknown values are `null`, never estimated or inferred from a competing product.
+
 ## [1.0.0] — 2026-07-19
 
 Initial public release. Dataset schema version 2.0.0.

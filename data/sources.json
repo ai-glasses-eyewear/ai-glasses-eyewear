@@ -1,5 +1,5 @@
 {
-  "note": "Sources for the AI Glasses Open Database. Each product's figures are manufacturer specifications and/or figures from the cited independent reviews below, accessed 2026-07-19. Manufacturer pages are authoritative for current specs. Review article URLs are named by publisher; where an exact article URL is not recorded it is null rather than fabricated. No values are invented.",
+  "note": "Sources for the AI Glasses Open Database. Each product's figures are manufacturer specifications and/or figures from the cited independent reviews below, accessed 2026-07-19 (v1.0.0); the Brilliant Labs Halo addition and Frame supersession (s9, s10) were accessed 2026-07-20. Manufacturer pages are authoritative for current specs. Review article URLs are named by publisher; where an exact article URL is not recorded it is null rather than fabricated. No values are invented.",
   "source_hierarchy": [
     "1. Manufacturer documentation / official product pages",
     "2. Official manuals & support pages",
@@ -67,6 +67,20 @@
       "references": [
         { "title": "Android XR glasses coverage", "publisher": "The Gadgeteer", "type": "journalism", "url": null },
         { "title": "AI-glasses market data", "publisher": "Counterpoint Research / IDC", "type": "market-research", "url": null }
+      ] },
+    { "id": "s9", "product": "brilliant-labs-halo", "classification": "manufacturer+independent", "language": "en", "access_date": "2026-07-20", "publication_date": null,
+      "fields_supported": ["display", "camera", "microphone", "speaker", "capabilities", "weight_g", "battery", "prescription", "price", "connectivity"],
+      "references": [
+        { "title": "Halo — product page", "publisher": "Brilliant Labs", "type": "manufacturer", "url": "https://brilliant.xyz/products/halo" },
+        { "title": "Brilliant Labs Halo — price & release", "publisher": "Road to VR", "type": "journalism", "url": "https://roadtovr.com/brilliant-labs-halo-smart-glasses-price-release-date/" },
+        { "title": "Brilliant Labs $349 Halo — on-device AI", "publisher": "Digital Trends", "type": "journalism", "url": "https://www.digitaltrends.com/wearables/brilliant-labs-349-halo-smart-glasses-handle-all-ai-workloads-on-device-and-its-a-huge-privacy-win/" },
+        { "title": "Brilliant Labs unveils Halo", "publisher": "Tom's Guide", "type": "journalism", "url": "https://www.tomsguide.com/computing/smart-glasses/brilliant-labs-unveils-halo-the-worlds-thinnest-ai-glasses-and-it-wants-to-be-your-everyday-specs" }
+      ] },
+    { "id": "s10", "product": "brilliant-labs-frame/halo (supersession)", "classification": "journalism", "language": "en", "access_date": "2026-07-20", "publication_date": null,
+      "fields_supported": ["status"],
+      "references": [
+        { "title": "Brilliant Labs announces a successor to its $349 open-source Frame", "publisher": "The Verge", "type": "journalism", "url": null },
+        { "title": "Halo is the follow-up to the Frame", "publisher": "Tom's Guide", "type": "journalism", "url": "https://www.tomsguide.com/computing/smart-glasses/brilliant-labs-unveils-halo-the-worlds-thinnest-ai-glasses-and-it-wants-to-be-your-everyday-specs" }
       ] }
   ]
 }

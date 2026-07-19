@@ -2,26 +2,26 @@
 
 What the dataset does **not** yet know, and what source would resolve it. This is a call for sourced contributions — see [`CONTRIBUTING.md`](../CONTRIBUTING.md) and the `source-needed` issue form.
 
-- **Data version:** 1.0.0
-- **Date:** 2026-07-19
+- **Data version:** 1.1.0
+- **Date:** 2026-07-20
 - **Sample size:** 7 shipping products
 - **Source:** [`data/ai-glasses.json`](../data/ai-glasses.json)
 - **Note:** `null` = not verified from a cited source; never estimated.
 
-## Gaps by field (as of 2026-07-19, v1.0.0)
+## Gaps by field (as of 2026-07-20, v1.1.0)
 
 | Field | Products currently `null` | Source that would resolve it |
 |---|---|---|
 | `weight_g` | Ray-Ban Meta (Gen 2), Ray-Ban Display | manufacturer spec sheet / independent weigh-in |
 | `price.amount` | Ray-Ban Display, Rokid Glasses | manufacturer / official retailer listing |
 | `prescription.available` | Ray-Ban Display, RayNeo X3 Pro | manufacturer prescription/Rx page |
-| `display.brightness_nit` | Ray-Ban Display, XREAL One | manufacturer display spec |
+| `display.brightness_nit` | Ray-Ban Display, XREAL One, Halo | manufacturer display spec |
 | `battery` | Ray-Ban Meta (Gen 2), Ray-Ban Display | manufacturer / independent battery test |
-| `capabilities.translation` | Ray-Ban Display, XREAL One, RayNeo X3 Pro, Frame | manufacturer feature page |
+| `capabilities.translation` | Ray-Ban Display, XREAL One, RayNeo X3 Pro | manufacturer feature page |
 | `os_compatibility` | all 7 | manufacturer compatibility page (iOS/Android versions) |
 | `dimensions_mm` | all 7 | manufacturer spec sheet |
 | `warranty` | all 7 | manufacturer warranty terms (region-specific) |
-| `region_availability` | 6 of 7 (all but Even G2) | manufacturer availability / regional stores |
+| `region_availability` | 5 of 7 (all but Even G2 and Halo) | manufacturer availability / regional stores |
 
 ## Priorities
 

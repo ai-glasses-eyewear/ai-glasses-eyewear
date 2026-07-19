@@ -5,10 +5,10 @@ Open, cited and machine-readable data about AI glasses, smart glasses, display g
 [![validate](https://github.com/ai-glasses-eyewear/ai-glasses-eyewear/actions/workflows/validate.yml/badge.svg)](https://github.com/ai-glasses-eyewear/ai-glasses-eyewear/actions/workflows/validate.yml)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Data-CC%20BY%204.0-3ee06f)](LICENSE-DATA)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue)](LICENSE-CODE)
-![Dataset v1.0.0](https://img.shields.io/badge/dataset-v1.0.0-111214)
+![Dataset v1.1.0](https://img.shields.io/badge/dataset-v1.1.0-111214)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21446211.svg)](https://doi.org/10.5281/zenodo.21446211)
 
-> **Last verified: 2026-07-19** · 7 shipping products · [CITATION.cff](CITATION.cff) provided.
+> **Last verified: 2026-07-20** · 7 shipping products (8 total, incl. 1 discontinued) · [CITATION.cff](CITATION.cff) provided.
 
 A neutral, sourced reference for the AI-glasses category. Manufacturer specifications are kept separate from independent tests, and **unknown values are left `null` rather than estimated.** The human-readable version lives at **[ai-eyewear.ch/datenbank](https://ai-eyewear.ch/datenbank/)**; this repository holds the structured JSON/CSV, schema, sources and documentation.
 
@@ -16,7 +16,7 @@ A neutral, sourced reference for the AI-glasses category. Manufacturer specifica
 
 | Path | Contents |
 |---|---|
-| [`data/ai-glasses.json`](data/ai-glasses.json) | The dataset — 7 shipping products + an `announced` section |
+| [`data/ai-glasses.json`](data/ai-glasses.json) | The dataset — 7 shipping products + 1 discontinued + an `announced` section |
 | [`data/ai-glasses.csv`](data/ai-glasses.csv) | Flat CSV export (spreadsheet-friendly) |
 | [`data/sources.json`](data/sources.json) | A citation for every product's figures |
 | [`schema/ai-glasses.schema.json`](schema/ai-glasses.schema.json) | JSON Schema (validate the dataset) |
@@ -30,7 +30,7 @@ A neutral, sourced reference for the AI-glasses category. Manufacturer specifica
 
 There is no clean, cited, machine-readable reference for AI glasses: datasheets disagree, marketing muddies categories, and "review" numbers are rarely reproducible. This dataset separates what a manufacturer states from what an independent test found, records a source for each value, and marks anything unverified as `null`. It is meant to be **useful, reusable and citable** — by consumers, journalists, researchers, developers and AI systems.
 
-## Dataset preview (v1.0.0)
+## Dataset preview (v1.1.0)
 
 | Product | Manufacturer | Display | Camera | Weight | Price |
 |---|---|---|---|---|---|
@@ -40,9 +40,10 @@ There is no clean, cited, machine-readable reference for AI glasses: datasheets 
 | XREAL One | XREAL | Micro-OLED (full-colour) | no | 84 g | USD 499 |
 | Rokid Glasses | Rokid | dual Micro-LED (mono) | yes | 49 g | unknown |
 | RayNeo X3 Pro | RayNeo (TCL) | dual full-colour Micro-LED | yes | 76 g | USD 1299 |
-| Frame | Brilliant Labs | Micro-OLED | yes | 39–40 g | USD 349 |
+| Halo | Brilliant Labs | Micro-OLED (colour, peripheral) | yes (AI-vision) | ~40 g | USD 349 |
+| Frame *(discontinued)* | Brilliant Labs | Micro-OLED | yes | 39–40 g | USD 349 |
 
-"unknown" = not verifiable from a cited source at the last check (see the data-integrity note below). Announced models without verifiable specs (e.g. Google/Samsung Android XR) are listed separately in the dataset.
+"unknown" = not verifiable from a cited source at the last check (see the data-integrity note below). The Brilliant Labs **Frame** is retained with status `discontinued` (superseded by the Halo); its historical specifications are kept. Announced models without verifiable specs (e.g. Google/Samsung Android XR) are listed separately in the dataset.
 
 ## Formats
 
@@ -101,9 +102,9 @@ Corrections and new **sourced** figures are welcome — see [`CONTRIBUTING.md`](
 
 A machine-readable [`CITATION.cff`](CITATION.cff) is included (GitHub shows a "Cite this repository" button). Preferred citation:
 
-> AI-Eyewear. *AI Glasses Open Database* (v1.0.0). 2026. Zenodo. https://doi.org/10.5281/zenodo.21446212
+> AI-Eyewear. *AI Glasses Open Database* (v1.1.0). 2026. Zenodo. https://doi.org/10.5281/zenodo.21446211
 
-The concept DOI [10.5281/zenodo.21446211](https://doi.org/10.5281/zenodo.21446211) always resolves to the latest version.
+The concept DOI [10.5281/zenodo.21446211](https://doi.org/10.5281/zenodo.21446211) always resolves to the latest version; each release also receives its own version DOI on Zenodo.
 
 ## License
 

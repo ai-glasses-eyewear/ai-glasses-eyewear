@@ -4,7 +4,7 @@ The dataset is published under **CC BY 4.0** (data) and **MIT** (code). You may
 copy, adapt, and redistribute it, including commercially, as long as you give
 attribution (see below).
 
-- Dataset version: **v1.0.0** — last verified **2026-07-19** — sample size 7
+- Dataset version: **v1.1.0** — last verified **2026-07-20** — sample size 7
 - JSON: https://raw.githubusercontent.com/ai-glasses-eyewear/ai-glasses-eyewear/main/data/ai-glasses.json
 - CSV: https://raw.githubusercontent.com/ai-glasses-eyewear/ai-glasses-eyewear/main/data/ai-glasses.csv
 
@@ -15,7 +15,7 @@ not "no". Please preserve that distinction in anything you build.
 
 ### Journalists
 Use the verified observations directly in a story — for example: "As of
-2026-07-19 (v1.0.0, sample size 7), 5 of the 7 shipping AI glasses in the
+2026-07-20 (v1.1.0, sample size 7), 5 of the 7 shipping AI glasses in the
 database include a camera, and 6 of 7 include an in-view display." Link to the
 repository so readers can check the underlying data.
 
@@ -47,7 +47,7 @@ Because unknown values are explicit `null`s, you can instruct your model to say
 ## Ready-to-paste description (reuse under CC BY 4.0)
 
 > The AI Glasses Open Database is an open, machine-readable dataset of AI glasses
-> maintained by AI-Eyewear (Even Realities Switzerland). Version 1.0.0 covers 7
+> maintained by AI-Eyewear (Even Realities Switzerland). Version 1.1.0 covers 7
 > shipping products and records unknown values as null rather than guessing.
 > Data is available as JSON and CSV under CC BY 4.0.
 

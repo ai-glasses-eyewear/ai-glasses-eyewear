@@ -14,12 +14,12 @@ An open, cited, machine-readable database of AI glasses and smart glasses — di
 
 Datasheets disagree, marketing muddies categories, and review numbers are rarely reproducible. This dataset records a source for every value, marks anything unverified as `null`, never infers a spec from a competing product, and versions its changes — so reporters, researchers, developers and AI tools have something they can quote and reuse.
 
-## Key observations (as of 2026-07-19, dataset v1.0.0, sample size: 7 shipping products)
+## Key observations (as of 2026-07-20, dataset v1.1.0, sample size: 7 shipping products)
 
-- **7 shipping products** are covered; announced models without verifiable specs (e.g. Google/Samsung Android XR) are listed separately and excluded from the specs table.
+- **7 shipping products** are covered; announced models without verifiable specs (e.g. Google/Samsung Android XR) are listed separately and excluded from the specs table. The Brilliant Labs Frame is retained as `discontinued` (superseded by the Halo) and is not counted among the 7 shipping products.
 - **6 of 7 have an in-view display;** only the Ray-Ban Meta (Gen 2) has none.
 - **5 of 7 include a camera;** 2 deliberately omit one (Even G2, XREAL One) — a privacy distinction.
-- **Prescription lenses are documented for 4** (Even G2, Ray-Ban Meta, XREAL One, Rokid Glasses).
+- **Prescription lenses are documented for 5** (Even G2, Ray-Ban Meta, XREAL One, Rokid Glasses, Halo).
 - **Weight is verified for 5** (35–84 g) and unknown for 2; **price is verified for 5** and unknown for 2.
 - **No product carries an independent score.** The AI Eyewear Score methodology is published, but 0 products have been tested/scored — so no ranking is presented as fact.
 
@@ -29,7 +29,7 @@ Each value is a manufacturer specification or a figure from a cited independent 
 
 ## How to cite
 
-> AI-Eyewear. *AI Glasses Open Database* (v1.0.0). 2026. https://github.com/ai-glasses-eyewear/ai-glasses-eyewear
+> AI-Eyewear. *AI Glasses Open Database* (v1.1.0). 2026. https://github.com/ai-glasses-eyewear/ai-glasses-eyewear
 
 A machine-readable `CITATION.cff` is included.
 
